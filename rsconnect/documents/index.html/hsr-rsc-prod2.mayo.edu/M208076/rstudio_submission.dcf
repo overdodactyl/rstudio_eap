@@ -1,0 +1,11 @@
+name: rstudio_submission
+title: RStudio - EAP
+username: M208076
+account: M208076
+server: hsr-rsc-prod2.mayo.edu
+hostUrl: https://hsr-rsc-prod2.mayo.edu:1919/__api__
+appId: 582
+bundleId: 112842
+url: https://hsr-rsc-prod2.mayo.edu:1919/content/902ecbe5-2220-4a90-932e-dd16f7ca0188/
+when: 1648443546.06384
+lastSyncTime: 1648443546.06387

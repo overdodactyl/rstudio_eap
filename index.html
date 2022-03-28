@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>EAP - RStudio</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">RStudio Submission</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Overview</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h2 class="fw-bolder">Simplifying Complex Infrastructure for Large-Scale Studies with R:</h1>
+                <h3 class="fw-bolder">Expanded Access Program to Convalescent Plasma, a Case Study</h1>
+                <br>
+                <p class="lead fw-bolder">Pat Johnson, Katie Kunze, and Rickey Carter</p>
+                <p class="authors fst-italic">on behalf of</p>
+
+                <div class="container px-6 text-center">
+                    <!-- <p class="authors">Michael Joyner, MD, Jack Senefeld, PhD, Chad Wiggins, PhD, Steve Klassan, PhD</p> -->
+                <!-- <p class="authors">Jonathon W. Senefeld, Patrick W. Johnson, Katie L. Kunze, Evan M. Bloch, Noud van Helmond, Michael A. Golafshar, Stephen A. Klassen, Allan M. Klompas, Matthew A. Sexton, Juan C. Diaz Soto, Brenda J. Grossman, Aaron A. R. Tobian, Ruchika Goel, Chad C. Wiggins, Katelyn A. Bruno, Camille M. van Buskirk, James R. Stubbs, Jeffrey L. Winters, Arturo Casadevall, Nigel S. Paneth, Beth H. Shaz, Molly M. Petersen, Bruce S. Sachais, Matthew R. Buras, Mikolaj A. Wieczorek, Benjamin Russoniello, Larry J. Dumont, Sarah E. Baker, Ralph R. Vassallo, John R. A. Shepherd, Pampee P. Young, Nicole C. Verdun, Peter Marks, N. Rebecca Haley, Robert F. Rea, Louis Katz, Vitaly Herasevich, Dan A. Waxman, Emily R. Whelan, Aviv Bergman, Andrew J. Clayburn, Mary Kathryn Grabowski, Kathryn F. Larson, Juan G. Ripoll, Kylie J. Andersen, Matthew N. P. Vogt, Joshua J. Dennis, Riley J. Regimbal, Philippe R. Bauer, Janis E. Blair, Zachary A. Buchholtz, Michaela C. Pletsch, Katherine Wright, Joel T. Greenshields, Michael J. Joyner, R. Scott Wright, Rickey E. Carter, DeLisa Fairweather</p> -->
+                    <p class="authors center">Michael Golafshar,  Molly Petersen, Matthew Buras, Dave Hodge, Jonathon Senefeld, Noud van Helmond, Stephen Klassen, Chad Wiggins, and <b>Michael  Joyner</b></p>
+                </div>
+            </div>
+        </header>
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Overview</h2>
+                        <p class="lead">
+                            The United States Expanded Access Program (EAP) to COVID-19 convalescent plasma
+                            was a nation-wide study coordinated by Mayo Clinic under contract from the <a href="https://aspr.hhs.gov/AboutASPR/ProgramOffices/BARDA/Pages/default.aspx">Biomedical Advanced Research and Development Authority</a>.  From April to August 2020, our team was responsible for the enrollment, treatment, and follow-up of over 94,000 hospitalized patients within over 2,000 hospitals across all US states and surrounding territories.<br><br>
+                            Alongside physicians and clinical researchers, this collaboration was made possible by a nation-wide team of biostatisticians, data scientists, and statistical programmers.  The rapid development of this project, real-time monitoring of safety and efficacy, and robust statistical models were made possible through <a href="https://www.r-project.org/">R</a>, <a href="https://www.rstudio.com/">RStudio</a>, and countless community-developed packages and tools.
+                        </p>
+                        <br>
+                        <br>
+                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <!-- <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div> -->
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="assets/journal.pmed.1003872.g007.PNG" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/journal.pmed.1003872.g005.PNG" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/journal.pmed.1003872.g004.PNG" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- R Infrastructure -->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Infrastructure Overview</h2>
+                        <p class="lead">
+                            Over 1,400 patients were enrolled and treated every day during the peak of the EAP.  As a result, we necessitated an extensive, complex, and agile infrastructure to enable real-time safety and efficacy monitoring.  Pre-existing methods and tools at Mayo Clinic had to be re-envisioned and automated at a different scale to support the rapidly developing program:  data were aggregated from multiple internal and external sources; pipelines were run hourly; R Shiny applications were created to validate data integrity and report to regulatory committees; internal R packages were created; automated FDA and site-level reports were rendered and emailed daily; high-performance computing was used for model generation and hyper-parameter tuning.
+                            <br><br>
+                            Of the nearly 150,000 lines of code written for this project, almost 98% was in R.  R, RStudio, and RStudio Connect were critical to the implementation and success of this nation-wide program, and as a direct result, enabled the treatment of struggling COVID19 patients when no other alternatives were available.
+                            <br><br>
+                            The figure below summarizes the high-level infrastructure of the EAP.  The following sections highlight key implementation details and how they were implemented in R.
+                        </p>
+                        <br><br>
+                        <img src="assets/eap_flow.svg" class="img-fluid" alt="EAP Workflow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Data Sources -->
+        <section id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Data Sources</h2>
+                        <p class="lead">
+                            Patient, hospital, and physician data were collected using the <a href="https://www.project-redcap.org
+                            ">Research Electronic Data Capture</a> (REDCap) system and accessed using <a href="https://cran.r-project.org/web/packages/redcapAPI/index.html">redcapAPI</a>.  Additionally, the EAP sourced data from multiple collaborators and publicly available repositories like the New York Times, Google Developer APIs, the CDC, and the United States Census Bureau.  Web APIs were called using the <a href="https://httr.r-lib.org"> httr</a> package.  Finally, internally measured lab assay results were stored in IBM DB2 databases and queried using <a href="https://dbi.r-dbi.org">DBI</a>.
+                        </p>
+                        <img src="assets/data_sources.svg" class="img-fluid" alt="EAP Data Sources">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Reporting -->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Reporting</h2>
+                        <p class="lead">
+                            R Markdown, and bookdown were used extensively for report generation.  PDFs were generated for IRB, physician, and site contacts to report data quality issues, and a bookdown site was rendered to share results with the FDA and the Data Safety and Monitoring Board.
+                            <br><br>
+                            Blastula was leveraged to email rendered documents to the final recipients and pre-defined intervals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Drake -->
+        <section id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Drake</h2>
+                        <p class="lead">
+                            The drake R package was the primary workhorse behind the EAP workflow.  Our drake pipeline was initiated every 1-4 hours during the program, and new data was pulled, summarized, and reported to investigators.
+                            <br><br>
+                            REDCap surveys underwent multiple changes during the program to keep up with the rapidly developing pandemic, but re-modeled data within the pipeline allowed us to maintain a stable development and reporting infrastructure over time.    Moreover, it improved reproducibility, data management, and version history by creating a cached version of our data at every run.
+                            <br><br>
+                            Unlike many traditional clinical trials, the EAP published findings in near real-time.  Cached data sets enabled us to easily create snapshots of the program for a given analysis and update the paper only at controlled times.  Moreover, creating an hourly cache of the program generated a robust data provenance that we frequently used for quality assurance, program management (e.g., identifying uncommon data reporting times that could be used to shut down external servers for maintenance) and validating model assumptions (e.g., average time for physicians to report serious adverse events or deaths).
+                            <br><br>
+                            The drake pipeline was also responsible for posting pins to RStudio Connect servers to be used in shiny applications, generating and emailing reports for sites, the FDA, and blood collection facilities, and identifying possible data errors.
+                        </p>
+                        <br><br>
+                        <img src="assets/drake.png" class="img-fluid" alt="Drake Workflow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Shiny -->
+        <section id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>RStudio Connect</h2>
+                        <p class="lead">
+                            R Shiny applications were written to display data errors to a "data integrity team" responsible for data adjudications and corrections.  In addition, they were used for creating and maintaining SAE (serious adverse event) logs and reports.
+                            <br><br>
+                            RStudio Connect servers were also used to post analyses for the team to share, living reports and summaries, and pins containing common data elements.
+                        </p>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Data Sources -->
+        <section id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Code</h2>
+                        <p class="lead">
+                            With nearly 150,000 lines, R was the primary coding language used within the EAP.
+                        </p>
+                        <pre><code>
+                            ---------------------------------------------------
+                            Language                      files            code
+                            ---------------------------------------------------
+                            R                               655           96853
+                            Rmd                             290           46293
+                            TeX                              23            2394
+                            YAML                             20             273
+                            Bourne Shell                     63             195
+                            Python                            3              48
+                            Markdown                          4              43
+                            Bourne Again Shell                2               6
+                            make                              1               2
+                            ---------------------------------------------------
+                            SUM:                           1061          146107
+                            ---------------------------------------------------
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Related Publications</h2>
+                        1.	Ma, T., et al., <i>The Role of Disease Severity and Demographics in the Clinical Course of COVID-19 Patients Treated With Convalescent Plasma.</i> Front Med (Lausanne), 2022. <b>8</b>: p. 707895.<p>
+                            2.	Theel, E.S., et al., <i>SARS-CoV-2 Serologic Assays Dependent on Dual-Antigen Binding Demonstrate Diverging Kinetics Relative to Other Antibody Detection Methods.</i> J Clin Microbiol, 2021. <b>59</b>(9): p. e0123121.<p>
+                            3.	Senefeld, J.W., et al., <i>Use of convalescent plasma in COVID-19 patients with immunosuppression.</i> Transfusion, 2021. <b>61</b>(8): p. 2503-2511.<p>
+                            4.	Senefeld, J.W., et al., <i>Access to and safety of COVID-19 convalescent plasma in the United States Expanded Access Program: A national registry study.</i> PLoS Med, 2021. <b>18</b>(12): p. e1003872.<p>
+                            5.	Kunze, K.L., et al., <i>Mortality in individuals treated with COVID-19 convalescent plasma varies with the geographic provenance of donors.</i> Nat Commun, 2021. <b>12</b>(1): p. 4864.<p>
+                            6.	Klompas, A.M., et al., <i>In Reply—Micro-Thrombosis, Perfusion Defects, and Worsening Oxygenation in COVID-19 Patients: A Word of Caution on the Use of Convalescent Plasma.</i> Mayo Clinic Proceedings, 2021. <b>96</b>(1): p. 259-261.<p>
+                            7.	Klassen, S.A., et al., <i>Convalescent Plasma Therapy for COVID-19: A Graphical Mosaic of the Worldwide Evidence.</i> Front Med (Lausanne), 2021. <b>8</b>: p. 684151.<p>
+                            8.	Klassen, S.A., et al., <i>The effect of convalescent plasma therapy on mortality among patients with COVID-19: systematic review and meta-analysis.</i> Mayo Clinic Proceedings, 2021. <b>96</b>(5): p. 1262-1275.<p>
+                            9.	Juskewitch, J.E., et al., <i>HLA Antibody Rates Are Not Increased in a Regional Group of Male COVID-19 Convalescent Plasma Donors.</i> Mayo Clinic Proceedings, 2021. <b>96</b>(10): p. 2727-2728.<p>
+                            10.	Joyner, M.J., et al., <i>Convalescent Plasma Antibody Levels and the Risk of Death from Covid-19.</i> N Engl J Med, 2021. <b>384</b>(11): p. 1015-1027.<p>
+                            11.	Casadevall, A., et al., <i>Convalescent plasma use in the USA was inversely correlated with COVID-19 mortality.</i> Elife, 2021. <b>10</b>: p. e69866.<p>
+                            12.	Joyner, M.J., et al., <i>Early safety indicators of COVID-19 convalescent plasma in 5000 patients.</i> J Clin Invest, 2020. <b>130</b>(9): p. 4791-4797.<p>
+                            13.	Joyner, M.J., et al., <i>Safety update: COVID-19 convalescent plasma in 20,000 hospitalized patients.</i> Mayo Clinic Proceedings, 2020. <b>95</b>(9): p. 1888-1897.<p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>About Us</h2>
+                        <div class="container bootstrap snippets bootdey">
+                            <div class="profile card">
+                                <div class="profile-body">
+                                    <div class="profile-bios">
+                                        <div class="row">
+                                            <div class="col-md-5 text-center">
+                                                <img class="img-thumbnail md-margin-bottom-10" src="assets/pat.jpeg" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <h2>Pat Johnson</h2>
+                                                <span>Data Scientist</span><br>
+                                                <span>Mayo Clinic, Quantitative Health Sciences</span><br>
+                                                <a href="https://github.com/overdodactyl" target="_blank" class="fab"><i class="fab fa-github-square fa-2x"></i></a>
+                                                <a href="https://scholar.google.com/citations?user=6ukqVUIAAAAJ&hl=en" target="_blank" class="fab"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+                                                <!-- <i class="ai ai-google-scholar-square ai-2x"></i> -->
+                                                <hr>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget massa nec turpis congue bibendum. Integer nulla felis, porta suscipit nulla et, dignissim commodo nunc. Morbi a semper nulla.</p>
+                                                <p>Proin mauris odio, pharetra quis ligula non, vulputate vehicula quam. Nunc in libero vitae nunc ultricies tincidunt ut sed leo. Sed luctus dui ut congue consequat. Cras consequat nisl ante, nec malesuada velit pellentesque ac. Pellentesque nec arcu in ipsum iaculis convallis.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container bootstrap snippets bootdey">
+                            <div class="profile card">
+                                <div class="profile-body">
+                                    <div class="profile-bios">
+                                        <div class="row">
+                                            <div class="col-md-5 text-center">
+                                                <img class="img-thumbnail md-margin-bottom-10" src="assets/katie.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <h2>Katie Kunze, PhD</h2>
+                                                <span>Biostatistician, Assistant Professor of Biostatistics</span><br>
+                                                <span>Mayo Clinic, Quantitative Health Sciences</span><br>
+                                                <a href="https://orcid.org/0000-0001-6850-6823" target="_blank" class="fab"><i class="ai ai-orcid-square ai-2x"></i></a>
+                                                <a href="https://scholar.google.com/citations?hl=en&user=2tfgXUYAAAAJ" target="_blank" class="fab"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+                                                <a href="https://www.linkedin.com/mwlite/in/klkunze" target="_blank" class="fa"><i class="fab fa-linkedin fa-2x"></i></a>
+                                                <hr>
+                                                <p>Dr. Katie L. Kunze is a Principal Biostatistician and Assistant Professor of Biostatistics at Mayo Clinic Arizona supporting research faculty within the Quantitative Health Sciences department, clinicians from across the organization, and trainees in a variety of fields. She serves as lead statistician for a family of studies examining the benefits of genetic testing, is one of the lead statisticians for the Expanded Access Program for Convalescent Plasma in COVID-19 patients led by Mayo Clinic, and conducts additional research in patient-reported outcomes and quality of life measures.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container bootstrap snippets bootdey">
+                            <div class="profile card">
+                                <div class="profile-body">
+                                    <div class="profile-bios">
+                                        <div class="row">
+                                            <div class="col-md-5 text-center">
+                                                <img class="img-thumbnail md-margin-bottom-10" src="assets/rickey.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <h2>Rickey Carter, PhD</h2>
+                                                <span>Vice Chair and Professor of Biostatistics</span><br>
+                                                <span>Mayo Clinic, Quantitative Health Sciences</span><br>
+                                                <a href="https://github.com/rickeycarter/" target="_blank" class="fab"><i class="fab fa-github-square fa-2x"></i></a>
+                                                <a href="https://scholar.google.com/citations?user=r8BstlsAAAAJ&hl=en&oi=ao" target="_blank" class="fab"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+                                                <a href="https://orcid.org/0000-0002-0818-273X" target="_blank" class="fab"><i class="ai ai-orcid-square ai-2x"></i></a>
+                                                <a href="https://www.ncbi.nlm.nih.gov/myncbi/rickey.carter.1/bibliography/public/   " target="_blank" class="fab"><i class="ai ai-pubmed-square ai-2x"></i></a>
+                                                <a href="https://www.linkedin.com/in/rickey-carter-bb7899150/" target="_blank" class="fa"><i class="fab fa-linkedin fa-2x"></i></a>
+                                                <a href="https://www.mayo.edu/research/faculty/carter-rickey-e-ph-d/bio-00054926" target="_blank" class="fas"><i class="fas fa-address-card fa-2x"></i></a>
+                                                <hr>
+                                                <p>Dr. Rickey Carter is Professor of Biostatistics at Mayo Clinic, Jacksonville, Florida. He serves as the Vice Chair for the Department of Quantitative Health Sciences, the director for the Biostatistics, Epidemiology and Research Design resource in Mayo Clinic’s Center for Clinical and Translational Science, and the scientific director for Mayo Clinic in Florida’s Digital Innovation Lab. Dr. Carter has research interests that span clinical trial optimization to the development of digital biomarkers using machine learning techniques.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <!-- <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div> -->
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
